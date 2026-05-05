@@ -1,14 +1,20 @@
 # myscraps
 
-## About this project
+## このプロジェクトについて
 
-### What is this project?
+### これは何か
 
-TODO:
+TIL（Today I Learned）的な技術ミニブログ。
+開発などで得た知見を一般化し、小さくまとめて記録する。
 
-### Purpose of this project
+### 目的
 
-TODO:
+このプロジェクトの目的：
+
+- 未来の自分が逆引き辞書として使う
+    - あの解決策なんだっけ、みたいなときに見返す
+- 自分の学習効率を向上させる
+    - 言語化して記事に書くことで、理解を深める
 
 ## Documentation for users
 
@@ -53,6 +59,10 @@ TODO:
 TODO:
 
 #### Force push to the remote repo
+
+TODO:
+
+### 技術構成
 
 TODO:
 
