@@ -57,7 +57,7 @@
     - **将来への影響**：
       - テーマ自作時は、月次ファイルを前提としたカスタム Content Collections スキーマを設計すること
       - AstroPaper のタグ・検索機能は使わない前提で運用する（壊れていても気にしない）
-- [ ] 6. Astro.js + AstroPaper でセットアップ
+- [x] 6. Astro.js + AstroPaper でセットアップ
     1. Node.js がインストールされているか確認する：node -v で確認。なければインストール
     1. AstroPaper のテンプレートからプロジェクトを生成する：npm create astro@latest + AstroPaper テンプレートを選択
     1. npm install で依存パッケージをインストールする
