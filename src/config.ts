@@ -4,6 +4,7 @@ export const SITE = {
   profile: "https://github.com/rnazmo",
   desc: "A personal TIL-style mini blog for dev notes and discoveries.",
   title: "myscraps",
+  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
