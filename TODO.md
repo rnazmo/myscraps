@@ -114,8 +114,40 @@
         - npm run build: 本番用の静的ファイルを生成する
         - npm run preview: ローカルで本番ビルドのプレビューを起動する
 - [ ] 11. Milestone: v0.0.2 のスコープを定義し、行うべきタスクを洗い出す
-  - リンター・フォーマッターの導入
-  - など
+  - v0.0.2 でやることを決めたい
+  - テーマ案：「サイトを自分のものにする＋開発環境を整える」
+    - v0.0.1 では「動く状態」を目指した
+    - v0.0.2 では「ちゃんと自分のブログになっている状態」と「開発環境の整備」を目指すのが良さそう
+  - カテゴリ①：サイトの個人化
+    - AstroPaper のデフォルト文言がまだ残っているため、自分のサイトとして仕上げる
+    - 例：
+      - src/pages/index.astro のヒーローテキスト（"AstroPaper is a minimal..." のくだり）を書き換える
+      - src/pages/about.md を自己紹介に書き換える
+      - src/constants.ts の SOCIALS / SHARE_LINKS を整理する（不要なSNSを削除、自分のアカウントに差し替え）
+      - src/config.ts の website URL が Vercel デプロイ後の正しい URL になっているか確認・修正
+  - カテゴリ②：開発環境の整備
+    - Node.js バージョンの固定
+      - `.mise.toml` 作る
+    - リンター・フォーマッターの導入を検討
+      - リンター・フォーマッターを導入することは確定
+      - どのリンター・フォーマッターを採用するかは未確定
+      - package.json には ESLint・Prettier がすでに入っているっぽい
+      - しかし、Biome の方が良さそうに思える
+    - リンター・フォーマッターがコミット時に自動で実行される仕組みの導入を検討
+      - これは後回しで良いのでは？
+    - エディタ周り？を整える
+      - この辺？：[Editor setup | Docs](https://docs.astro.build/en/editor-setup/)
+      - Neovim + LazyVim において Astro.js, React.js, JavaScript, TypeScript, CSS, HTML あたりを書く環境を整えるには？
+      - この辺をある程度整えられないと、まともに開発できない
+      - 優先度も高いが、作業コストも重そう
+    - AI tools 周りを整える
+      - [Building Astro sites with AI tools | Docs](https://docs.astro.build/en/guides/build-with-ai/)
+  - （カテゴリ③：コンテンツ（月次ファイル）を増やす）
+    - 細かい検討事項が多く時間かかりそうなので、後回しでも良い。開発環境整えたりするのが先
+  - すぐに着手出来そうなことのメモ
+    - ソーシャルリンク（WhatsApp / Facebook / X 等の共有ボタン）は不要なので消す
+    - mise で Node.js のバージョンを固定
+    - リンター・フォーマッターの選定をし、導入する
 
 ### セキュリティ・バグ修正
 
